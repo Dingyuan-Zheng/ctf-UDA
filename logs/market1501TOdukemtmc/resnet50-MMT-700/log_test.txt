@@ -1,0 +1,28 @@
+==========
+Args:Namespace(arch='resnet50', batch_size=256, data_dir='/Data_HDD/dingyuan_69/MMT_copy_1_v2/MMT/examples/data', dataset_target='dukemtmc', dropout=0, features=0, height=256, rerank=False, resume='logs/market1501TOdukemtmc/resnet50-MMT-700/model_best.pth.tar', seed=1, width=128, workers=8)
+==========
+This dataset has been downloaded.
+=> DukeMTMC-reID loaded
+Dataset statistics:
+  ----------------------------------------
+  subset   | # ids | # images | # cameras
+  ----------------------------------------
+  train    |   702 |    16522 |         8
+  query    |   702 |     2228 |         8
+  gallery  |  1110 |    17661 |         8
+  ----------------------------------------
+=> Loaded checkpoint 'logs/market1501TOdukemtmc/resnet50-MMT-700/model_best.pth.tar'
+=> Checkpoint of epoch 50  best mAP 67.8%
+Test on the target domain of dukemtmc:
+Extract Features: [10/78]	Time 0.304 (0.933)	Data 0.000 (0.263)	
+Extract Features: [20/78]	Time 0.315 (0.618)	Data 0.001 (0.132)	
+Extract Features: [30/78]	Time 0.344 (0.520)	Data 0.002 (0.088)	
+Extract Features: [40/78]	Time 0.296 (0.468)	Data 0.000 (0.066)	
+Extract Features: [50/78]	Time 0.305 (0.437)	Data 0.000 (0.053)	
+Extract Features: [60/78]	Time 0.297 (0.416)	Data 0.000 (0.044)	
+Extract Features: [70/78]	Time 0.292 (0.401)	Data 0.000 (0.038)	
+Mean AP: 67.8%
+CMC Scores:
+  top-1          80.2%
+  top-5          90.5%
+  top-10         93.0%

@@ -1,0 +1,27 @@
+==========
+Args:Namespace(arch='resnet50', batch_size=256, data_dir='/Data_HDD/dingyuan_69/MMT_copy_1_v2/MMT/examples/data', dataset_target='market1501', dropout=0, features=0, height=256, rerank=False, resume='logs/dukemtmcTOmarket1501/resnet50-MMT-500/model_best.pth.tar', seed=1, width=128, workers=8)
+==========
+=> Market1501 loaded
+Dataset statistics:
+  ----------------------------------------
+  subset   | # ids | # images | # cameras
+  ----------------------------------------
+  train    |   751 |    12936 |         6
+  query    |   750 |     3368 |         6
+  gallery  |   751 |    15913 |         6
+  ----------------------------------------
+=> Loaded checkpoint 'logs/dukemtmcTOmarket1501/resnet50-MMT-500/model_best.pth.tar'
+=> Checkpoint of epoch 49  best mAP 77.0%
+Test on the target domain of market1501:
+Extract Features: [10/76]	Time 0.295 (0.878)	Data 0.000 (0.130)	
+Extract Features: [20/76]	Time 0.294 (0.592)	Data 0.000 (0.065)	
+Extract Features: [30/76]	Time 0.299 (0.497)	Data 0.000 (0.044)	
+Extract Features: [40/76]	Time 0.295 (0.450)	Data 0.000 (0.033)	
+Extract Features: [50/76]	Time 0.333 (0.422)	Data 0.000 (0.026)	
+Extract Features: [60/76]	Time 0.315 (0.403)	Data 0.000 (0.022)	
+Extract Features: [70/76]	Time 0.313 (0.391)	Data 0.000 (0.019)	
+Mean AP: 77.0%
+CMC Scores:
+  top-1          90.6%
+  top-5          96.6%
+  top-10         97.9%

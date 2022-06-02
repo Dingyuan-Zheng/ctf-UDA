@@ -1,0 +1,54 @@
+==========
+Args:Namespace(arch='resnet50', batch_size=256, data_dir='/Data_HDD/dingyuan_69/MMT_copy_1_v2/MMT/examples/data', dataset_target='msmt17', dropout=0, features=0, height=256, rerank=False, resume='logs/dukemtmcTOmsmt17/resnet50-MMT-1500/model_best.pth.tar', seed=1, width=128, workers=8)
+==========
+Using downloaded file: /Data_HDD/dingyuan_69/MMT_copy_1_v2/MMT/examples/data/msmt17/MSMT17_V1
+MSMT17 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |  1041 |    32621
+  query    |  3060 |    11659
+  gallery  |  3060 |    82161
+=> Loaded checkpoint 'logs/dukemtmcTOmsmt17/resnet50-MMT-1500/model_best.pth.tar'
+=> Checkpoint of epoch 49  best mAP 28.6%
+Test on the target domain of msmt17:
+Extract Features: [10/367]	Time 0.301 (1.806)	Data 0.000 (1.195)	
+Extract Features: [20/367]	Time 0.298 (1.217)	Data 0.000 (0.759)	
+Extract Features: [30/367]	Time 0.300 (0.998)	Data 0.000 (0.592)	
+Extract Features: [40/367]	Time 0.300 (0.903)	Data 0.000 (0.523)	
+Extract Features: [50/367]	Time 0.404 (0.858)	Data 0.000 (0.490)	
+Extract Features: [60/367]	Time 0.308 (0.787)	Data 0.000 (0.430)	
+Extract Features: [70/367]	Time 0.308 (0.740)	Data 0.000 (0.390)	
+Extract Features: [80/367]	Time 0.305 (0.696)	Data 0.000 (0.351)	
+Extract Features: [90/367]	Time 0.302 (0.689)	Data 0.000 (0.349)	
+Extract Features: [100/367]	Time 0.307 (0.669)	Data 0.000 (0.332)	
+Extract Features: [110/367]	Time 0.302 (0.650)	Data 0.000 (0.316)	
+Extract Features: [120/367]	Time 0.302 (0.634)	Data 0.000 (0.302)	
+Extract Features: [130/367]	Time 0.303 (0.628)	Data 0.000 (0.298)	
+Extract Features: [140/367]	Time 0.302 (0.614)	Data 0.000 (0.286)	
+Extract Features: [150/367]	Time 0.307 (0.603)	Data 0.000 (0.276)	
+Extract Features: [160/367]	Time 0.319 (0.594)	Data 0.000 (0.269)	
+Extract Features: [170/367]	Time 0.313 (0.595)	Data 0.000 (0.270)	
+Extract Features: [180/367]	Time 0.307 (0.583)	Data 0.000 (0.259)	
+Extract Features: [190/367]	Time 0.310 (0.574)	Data 0.000 (0.251)	
+Extract Features: [200/367]	Time 0.304 (0.568)	Data 0.000 (0.245)	
+Extract Features: [210/367]	Time 0.325 (0.572)	Data 0.000 (0.250)	
+Extract Features: [220/367]	Time 0.310 (0.566)	Data 0.000 (0.244)	
+Extract Features: [230/367]	Time 0.313 (0.560)	Data 0.000 (0.239)	
+Extract Features: [240/367]	Time 0.326 (0.556)	Data 0.000 (0.234)	
+Extract Features: [250/367]	Time 0.313 (0.557)	Data 0.000 (0.235)	
+Extract Features: [260/367]	Time 0.309 (0.553)	Data 0.000 (0.233)	
+Extract Features: [270/367]	Time 0.310 (0.550)	Data 0.000 (0.229)	
+Extract Features: [280/367]	Time 0.362 (0.573)	Data 0.000 (0.252)	
+Extract Features: [290/367]	Time 0.313 (0.571)	Data 0.000 (0.250)	
+Extract Features: [300/367]	Time 0.323 (0.565)	Data 0.000 (0.244)	
+Extract Features: [310/367]	Time 0.479 (0.565)	Data 0.000 (0.240)	
+Extract Features: [320/367]	Time 0.584 (0.565)	Data 0.000 (0.233)	
+Extract Features: [330/367]	Time 0.439 (0.573)	Data 0.000 (0.238)	
+Extract Features: [340/367]	Time 0.593 (0.584)	Data 0.000 (0.242)	
+Extract Features: [350/367]	Time 0.329 (0.617)	Data 0.000 (0.269)	
+Extract Features: [360/367]	Time 0.679 (0.623)	Data 0.000 (0.270)	
+Mean AP: 28.6%
+CMC Scores:
+  top-1          57.6%
+  top-5          71.4%
+  top-10         76.5%
